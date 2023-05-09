@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\bin\Debug\net6.0\BuscarPalavra.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\bin\Debug\net6.0\BuscarPalavra.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\bin\Debug\net6.0\BuscarPalavra.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\bin\Debug\net6.0\BuscarPalavra.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\bin\Debug\net6.0\BuscarPalavra.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\refint\BuscarPalavra.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\BuscarPalavra.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\BuscarPalavra\obj\Debug\net6.0\ref\BuscarPalavra.dll
