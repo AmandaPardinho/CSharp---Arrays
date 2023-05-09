@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\bin\Debug\net6.0\ExemploArrays.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\bin\Debug\net6.0\ExemploArrays.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\bin\Debug\net6.0\ExemploArrays.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\bin\Debug\net6.0\ExemploArrays.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\bin\Debug\net6.0\ExemploArrays.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\refint\ExemploArrays.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ExemploArrays.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\ExemploArrays\obj\Debug\net6.0\ref\ExemploArrays.dll
