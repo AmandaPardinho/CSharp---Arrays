@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\bin\Debug\net6.0\MediaAmostra.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\bin\Debug\net6.0\MediaAmostra.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\bin\Debug\net6.0\MediaAmostra.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\bin\Debug\net6.0\MediaAmostra.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\bin\Debug\net6.0\MediaAmostra.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\refint\MediaAmostra.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\MediaAmostra.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\MediaAmostra\obj\Debug\net6.0\ref\MediaAmostra.dll
