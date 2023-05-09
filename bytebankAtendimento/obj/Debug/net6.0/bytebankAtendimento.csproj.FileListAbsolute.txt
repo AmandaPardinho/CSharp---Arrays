@@ -1,0 +1,5 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.csproj.CoreCompileInputs.cache
