@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploArrays", "..\Exemplo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscarPalavra", "..\BuscarPalavra\BuscarPalavra.csproj", "{1A2BD3EF-8CAF-4247-BF6E-D1F2CCFE552E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularMediana", "..\CalcularMediana\CalcularMediana.csproj", "{52DE6691-B920-4024-B788-B9E66948AF0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1A2BD3EF-8CAF-4247-BF6E-D1F2CCFE552E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A2BD3EF-8CAF-4247-BF6E-D1F2CCFE552E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A2BD3EF-8CAF-4247-BF6E-D1F2CCFE552E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DE6691-B920-4024-B788-B9E66948AF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DE6691-B920-4024-B788-B9E66948AF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DE6691-B920-4024-B788-B9E66948AF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DE6691-B920-4024-B788-B9E66948AF0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

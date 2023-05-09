@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\bin\Debug\net6.0\CalcularMediana.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\bin\Debug\net6.0\CalcularMediana.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\bin\Debug\net6.0\CalcularMediana.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\bin\Debug\net6.0\CalcularMediana.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\bin\Debug\net6.0\CalcularMediana.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\refint\CalcularMediana.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\CalcularMediana.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\CalcularMediana\obj\Debug\net6.0\ref\CalcularMediana.dll
