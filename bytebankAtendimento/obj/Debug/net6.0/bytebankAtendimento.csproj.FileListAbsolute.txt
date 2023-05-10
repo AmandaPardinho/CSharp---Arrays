@@ -3,3 +3,13 @@ C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\byte
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.AssemblyInfoInputs.cache
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.AssemblyInfo.cs
 C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\bin\Debug\net6.0\bytebankAtendimento.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\bin\Debug\net6.0\bytebankAtendimento.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\bin\Debug\net6.0\bytebankAtendimento.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\bin\Debug\net6.0\bytebankAtendimento.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\bin\Debug\net6.0\bytebankAtendimento.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\refint\bytebankAtendimento.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\bytebankAtendimento.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\bytebankAtendimento\obj\Debug\net6.0\ref\bytebankAtendimento.dll
