@@ -107,6 +107,12 @@ namespace bytebankAtendimento.Modelos.Conta
             TotalContasCriadas++;
         }
 
+        public ContaCorrente(int _numeroAgencia, string _conta)
+        {
+            NumeroAgencia = _numeroAgencia;
+            Conta = _conta;
+        }
+
         public override string ToString()
         {
             return $"=== DADOS DA CONTA ===\nNúmero da Conta: {this.Conta}\nTitular da Conta: {this.Titular.Nome}\nCPF: {this.Titular.Cpf}\nProfissão: {this.Titular.Profissao}";
