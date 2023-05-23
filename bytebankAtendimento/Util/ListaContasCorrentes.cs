@@ -41,5 +41,10 @@ namespace bytebankAtendimento.Util
             _itens[_proximaPosicao] = item;
             _proximaPosicao++;
         }
+
+        public static List<ContaCorrente> MaiorSaldo(List<ContaCorrente>contas)
+        {
+            return contas.OrderByDescending(conta => conta.Saldo).ToList();             
+        }
     }
 }
