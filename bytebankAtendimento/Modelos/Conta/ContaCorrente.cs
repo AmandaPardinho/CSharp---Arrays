@@ -99,7 +99,7 @@ namespace bytebankAtendimento.Modelos.Conta
             return true;
         }
 
-        public ContaCorrente(int _numeroAgencia)
+        public ContaCorrente(int _numeroAgencia, int numeroAgencia, string conta, double saldo)
         {
             NumeroAgencia = _numeroAgencia;
             Conta = Guid.NewGuid().ToString().Substring(0, 8);
@@ -107,15 +107,35 @@ namespace bytebankAtendimento.Modelos.Conta
             TotalContasCriadas++;
         }
 
-        public ContaCorrente(int _numeroAgencia, string _conta)
+        public ContaCorrente(int _numeroAgencia, string _conta, double _saldo, Cliente titular )
         {
             NumeroAgencia = _numeroAgencia;
             Conta = _conta;
+            Saldo = _saldo;
+            Titular = titular;
+        }
+
+        public ContaCorrente()
+        {
+            
+        }
+
+        public ContaCorrente(int numeroAgencia, string conta, double saldo)
+        {
+            _numeroAgencia = numeroAgencia;
+            _conta = conta;
+            _saldo = saldo;
+        }
+
+        public ContaCorrente(int numeroAgencia, string conta)
+        {
+            _numeroAgencia = numeroAgencia;
+            _conta = conta;
         }
 
         public override string ToString()
         {
-            return $"=== DADOS DA CONTA ===\nNúmero da Conta: {this.Conta}\nTitular da Conta: {this.Titular.Nome}\nCPF: {this.Titular.Cpf}\nProfissão: {this.Titular.Profissao}";
-        }
+            return $"=== DADOS DA CONTA ===\nNúmero da Conta: {this.Conta}\nNúmero Agência:{this.NumeroAgencia}\nSaldo: {this.Saldo}\nTitular: {this.Titular.Nome}\nCPF: {this.Titular.Cpf}\nProfissão: {this.Titular.Profissao}";
+        }    
     }
 }
