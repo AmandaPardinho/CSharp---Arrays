@@ -8,8 +8,22 @@ namespace bytebankAtendimento.Modelos.Conta
 {
     public class Cliente
     {
-        public string Cpf { get; set; }
         private string _nome;
+        private string _cpf;
+        private string _profissao;
+       
+        public string Cpf { 
+            get
+            {
+                return _cpf;
+            }
+        }
+        public string Profissao {
+            get
+            {
+                return _profissao;
+            } 
+        }
         
         public string Nome 
         {
@@ -26,13 +40,23 @@ namespace bytebankAtendimento.Modelos.Conta
             } 
         }
 
-        public string Profissao { get; set; }
-
         public static int TotalClientesCadastrados { get; set; }
 
         public Cliente()
         {
             TotalClientesCadastrados = TotalClientesCadastrados + 1;
+        }
+
+        public Cliente(string nome, string cpf, string profissao)
+        {
+            this._nome = nome;
+            this._cpf = cpf;
+            this._profissao = profissao;
+        }
+
+        public override string ToString()
+        {
+            return $"Nome: {this._nome}\nCPF: {this._cpf}\nProfissão: {this._profissao}";
         }
     }
 }
