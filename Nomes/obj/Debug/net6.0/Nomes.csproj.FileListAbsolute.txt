@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\bin\Debug\net6.0\Nomes.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\bin\Debug\net6.0\Nomes.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\bin\Debug\net6.0\Nomes.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\bin\Debug\net6.0\Nomes.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\bin\Debug\net6.0\Nomes.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\refint\Nomes.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\Nomes.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp---Arrays\Nomes\obj\Debug\net6.0\ref\Nomes.dll
