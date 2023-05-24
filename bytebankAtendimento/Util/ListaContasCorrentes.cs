@@ -46,5 +46,65 @@ namespace bytebankAtendimento.Util
         {
             return contas.OrderByDescending(conta => conta.Saldo).ToList();             
         }
+
+        public void Remover(ContaCorrente conta)
+        {
+            int indiceItem = -1;
+            for(int i = 0; i < _proximaPosicao; i++)
+            {
+                ContaCorrente contaAtual = _itens[i];
+                if(contaAtual == conta)
+                {
+                    indiceItem = i;
+                    break;
+                }
+            }
+
+            for (int i = indiceItem; i < (_proximaPosicao - 1); i++)
+            {
+                _itens[i] = _itens[i + 1];
+            }
+            _proximaPosicao--;
+            _itens[_proximaPosicao] = null;
+        }
+
+        public void ExibirLista()
+        {
+            for (int i = 0; i < _itens.Length; i++)
+            {
+                if (_itens[i] != null)
+                {
+                    var conta = _itens[i];
+                    Console.WriteLine($"Índice[{i}] = Conta: {conta.Conta} - Número Agência: {conta.NumeroAgencia}");
+                }
+            }
+        }
+
+        public ContaCorrente RecuperarContaNoIndice(int indice)
+        {
+            if((indice < 0) || (indice >= _proximaPosicao))
+            {
+                throw new ArgumentOutOfRangeException(nameof(indice));
+            }
+
+            return _itens[indice];
+        }
+
+        public int Tamanho 
+        {
+            get
+            {
+                return _proximaPosicao;
+            } 
+        }
+
+        //transforma a classe ContaCorrente em uma classe indexável
+        public ContaCorrente this[int indice]
+        {
+            get
+            {
+                return RecuperarContaNoIndice(indice);
+            }
+        }
     }
 }
