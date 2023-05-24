@@ -131,6 +131,8 @@ namespace bytebankAtendimento.Modelos.Conta
         {
             _numeroAgencia = numeroAgencia;
             _conta = conta;
+            Titular = new Cliente();
+            TotalContasCriadas++;
         }
 
         public override string ToString()
