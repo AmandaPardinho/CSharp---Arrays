@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 
 Console.WriteLine("Boas-vindas ao ByteBank, Atendimento.");
 
+#region Testes de métodos
 //void TestaArrayContasCorrentes()
 //{
 //    ContaCorrente[] listaContas = new ContaCorrente[]
@@ -56,7 +57,7 @@ Console.WriteLine("Boas-vindas ao ByteBank, Atendimento.");
 //    cc.Add(new ContaCorrente(874, "7781438-C", 2000, cliente3));
 
 //    List<ContaCorrente> lista = ListaContasCorrentes.MaiorSaldo(cc);
-    
+
 //    foreach(var conta in lista)
 //    {
 //        Console.WriteLine(conta);
@@ -93,6 +94,117 @@ void TestaArrayContasCorrentes()
     }
 }
 
-TestaArrayContasCorrentes();
+//TestaArrayContasCorrentes();
+#endregion  
+
+#region Menu
+//1 - Cadastrar Contas
+//2 - Listar Contas
+//3 - Remover Contas
+//4 - Ordenar Contas
+//5 - Pesquisar Contas
+//6 - Sair do Sistema
+#endregion
+
+ArrayList _listaDeContas = new ArrayList();
+
+void AtendimentoCliente()
+{
+    char opcao = '0';
+    while (opcao != '6')
+    {
+        Console.Clear();
+
+        Console.WriteLine("=================================");
+        Console.WriteLine("===        ATENDIMENTO        ===");
+        Console.WriteLine("===    1 - Cadastrar Conta    ===");
+        Console.WriteLine("===    2 - Listar Contas      ===");
+        Console.WriteLine("===    3 - Remover Conta      ===");
+        Console.WriteLine("===    4 - Ordenar Contas     ===");
+        Console.WriteLine("===    5 - Pesquisar Conta    ===");
+        Console.WriteLine("===    6 - Sair do Sistema    ===");
+        Console.WriteLine("=================================");
+        Console.WriteLine("\n");
+
+        Console.Write("Digite a opção desejada: ");
+        opcao = Console.ReadLine()[0];
+
+        switch (opcao)
+        {
+            case '1': CadastrarConta();
+                break;
+            case '2': ListarContas();
+                break;
+            default:
+                Console.WriteLine("Opção não implementada");
+                break;
+        }
+    }
+}
+
+void ListarContas()
+{
+    Console.Clear();
+    Console.WriteLine("=================================");
+    Console.WriteLine("===      LISTA DE CONTAS      ===");
+    Console.WriteLine("=================================");
+    Console.WriteLine("\n");
+    
+    if(_listaDeContas.Count <= 0)
+    {
+        Console.WriteLine("Não há contas cadastradas");
+        Console.ReadKey();
+        return;
+    }
+    foreach (ContaCorrente item in _listaDeContas)
+    {
+        Console.WriteLine("=== Informe os Dados da Conta ===");
+        Console.Write($"Número da conta: {item.Conta}\n");
+        Console.Write($"Número da agência: {item.NumeroAgencia}\n");
+        Console.Write($"Nome do titular: {item.Titular.Nome}\n");
+        Console.Write($"CPF do titular: {item.Titular.Cpf}\n");
+        Console.Write($"Profissão do titular: {item.Titular.Profissao}\n");
+        Console.Write($"Saldo: {item.Saldo}");
+        Console.WriteLine("=================================");
+    }
+    Console.ReadKey();
+}
+
+void CadastrarConta()
+{
+    Console.Clear();
+    Console.WriteLine("=================================");
+    Console.WriteLine("===     CADASTRO DE CONTAS    ===");
+    Console.WriteLine("=================================");
+    Console.WriteLine("\n");
+    Console.WriteLine("=== Informe os Dados da Conta ===");
+    
+    Console.Write("Número da conta: ");
+    string numeroConta = Console.ReadLine();
+
+    Console.Write("Número da agência: ");
+    int numeroAgencia = int.Parse(Console.ReadLine());
+
+    ContaCorrente conta = new ContaCorrente(numeroAgencia, numeroConta);
+
+    Console.Write("Informe o saldo inicial: ");
+    conta.Saldo = double.Parse(Console.ReadLine());
+
+    Console.Write("Informe o nome do titular: ");
+    conta.Titular.Nome = Console.ReadLine();
+
+    Console.Write("Informe o CPF do titular: ");
+    conta.Titular.Cpf = Console.ReadLine();
+
+    Console.Write("Informe a profissão do titular: ");
+    conta.Titular.Profissao = Console.ReadLine();
+
+    _listaDeContas.Add(conta);
+    Console.WriteLine("Conta cadastrada com sucesso!");
+    Console.ReadKey();
+}
+
+
+AtendimentoCliente();
 
 Console.ReadKey();
