@@ -39,30 +39,60 @@ Console.WriteLine("Boas-vindas ao ByteBank, Atendimento.");
 //    Console.WriteLine(lista[0]);
 //}
 
-void TestaContasCorrentes()
-{
-    var cliente1 = new Cliente("Ana", "12345678900", "diretor");
-    var cliente2 = new Cliente("João", "98765403211", "designer");
-    var cliente3 = new Cliente("Gustavo", "36985201477", "auxiliar");
+//void TestaContasCorrentes()
+//{
+//    var cliente1 = new Cliente("Ana", "12345678900", "diretor");
+//    var cliente2 = new Cliente("João", "98765403211", "designer");
+//    var cliente3 = new Cliente("Gustavo", "36985201477", "auxiliar");
 
-    List<Cliente> cliente = new List<Cliente>();
-    cliente.Add(cliente1);
-    cliente.Add(cliente2);
-    cliente.Add(cliente3);
+//    List<Cliente> cliente = new List<Cliente>();
+//    cliente.Add(cliente1);
+//    cliente.Add(cliente2);
+//    cliente.Add(cliente3);
 
-    List<ContaCorrente> cc = new List<ContaCorrente>();
-    cc.Add(new ContaCorrente(874, "5679787-A", 3, cliente1));
-    cc.Add(new ContaCorrente(874, "4456668-B", 50, cliente2));
-    cc.Add(new ContaCorrente(874, "7781438-C", 1, cliente3));
+//    List<ContaCorrente> cc = new List<ContaCorrente>();
+//    cc.Add(new ContaCorrente(874, "5679787-A", 5000, cliente1));
+//    cc.Add(new ContaCorrente(874, "4456668-B", 3000, cliente2));
+//    cc.Add(new ContaCorrente(874, "7781438-C", 2000, cliente3));
 
-    List<ContaCorrente> lista = ListaContasCorrentes.MaiorSaldo(cc);
+//    List<ContaCorrente> lista = ListaContasCorrentes.MaiorSaldo(cc);
     
-    foreach(var conta in lista)
+//    foreach(var conta in lista)
+//    {
+//        Console.WriteLine(conta);
+//    }
+//}
+
+//TestaContasCorrentes();
+
+void TestaArrayContasCorrentes()
+{
+    ListaContasCorrentes listaContas = new ListaContasCorrentes();
+    listaContas.Adicionar(new ContaCorrente(874, "5679787-A"));
+    listaContas.Adicionar(new ContaCorrente(874, "4456668-B"));
+    listaContas.Adicionar(new ContaCorrente(874, "7781438-C"));
+    listaContas.Adicionar(new ContaCorrente(874, "7781438-C"));
+    listaContas.Adicionar(new ContaCorrente(874, "7781438-C"));
+    listaContas.Adicionar(new ContaCorrente(874, "7781438-C"));
+
+    var contaDoAndre = new ContaCorrente(963, "123456-X");
+    listaContas.Adicionar(contaDoAndre);
+
+    //listaContas.ExibirLista();
+    //Console.WriteLine("**************************\n");
+
+    //listaContas.Remover(contaDoAndre);
+
+    //listaContas.ExibirLista();
+    //Console.WriteLine("**************************\n");
+
+    for (int i = 0; i < listaContas.Tamanho; i++)
     {
-        Console.WriteLine(conta);
+        ContaCorrente conta = listaContas[i];
+        Console.WriteLine($"Índice [{i}] = Número da conta: {conta.Conta}/Número agência: {conta.NumeroAgencia}");
     }
 }
 
-TestaContasCorrentes();
+TestaArrayContasCorrentes();
 
 Console.ReadKey();
