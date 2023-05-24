@@ -106,7 +106,12 @@ void TestaArrayContasCorrentes()
 //6 - Sair do Sistema
 #endregion
 
-ArrayList _listaDeContas = new ArrayList();
+List<ContaCorrente> _listaDeContas = new List<ContaCorrente>()
+{
+    new ContaCorrente(95, "123456-X"){Saldo = 100},
+    new ContaCorrente(95, "951258-X"){Saldo = 200},
+    new ContaCorrente(94, "987321-W"){Saldo = 60}
+};
 
 void AtendimentoCliente()
 {
@@ -135,6 +140,14 @@ void AtendimentoCliente()
                 break;
             case '2': ListarContas();
                 break;
+            case '3': //RemoverConta();
+                break;
+            case '4':
+                break;
+            case '5':
+                break;
+            case '6':
+                break;
             default:
                 Console.WriteLine("Opção não implementada");
                 break;
@@ -158,16 +171,18 @@ void ListarContas()
     }
     foreach (ContaCorrente item in _listaDeContas)
     {
-        Console.WriteLine("=== Informe os Dados da Conta ===");
-        Console.Write($"Número da conta: {item.Conta}\n");
-        Console.Write($"Número da agência: {item.NumeroAgencia}\n");
-        Console.Write($"Nome do titular: {item.Titular.Nome}\n");
-        Console.Write($"CPF do titular: {item.Titular.Cpf}\n");
-        Console.Write($"Profissão do titular: {item.Titular.Profissao}\n");
-        Console.Write($"Saldo: {item.Saldo}");
+        Console.WriteLine("===       Dados da Conta      ===");
+        Console.WriteLine($"Número da conta: {item.Conta}");
+        Console.WriteLine($"Número da agência: {item.NumeroAgencia}");
+        Console.WriteLine($"Nome do titular: {item.Titular.Nome}");
+        Console.WriteLine($"CPF do titular: {item.Titular.Cpf}");
+        Console.WriteLine($"Profissão do titular: {item.Titular.Profissao}");
+        Console.WriteLine($"Saldo da conta: {item.Saldo}");
         Console.WriteLine("=================================");
+
+        Console.ReadKey();
     }
-    Console.ReadKey();
+    
 }
 
 void CadastrarConta()
@@ -204,7 +219,43 @@ void CadastrarConta()
     Console.ReadKey();
 }
 
+//AtendimentoCliente();
 
-AtendimentoCliente();
+List<ContaCorrente> _listaDeContas2 = new List<ContaCorrente>()
+{
+    new ContaCorrente(874, "5679787-A"),
+    new ContaCorrente(874, "4456668-B"),
+    new ContaCorrente(874, "7781438-C")
+};
+
+List<ContaCorrente> _listaDeContas3 = new List<ContaCorrente>()
+{
+    new ContaCorrente(951, "5679787-E"),
+    new ContaCorrente(321, "4456668-F"),
+    new ContaCorrente(719, "7781438-G")
+};
+
+_listaDeContas2.AddRange(_listaDeContas3);
+_listaDeContas2.Reverse();
+for (int i = 0; i < _listaDeContas2.Count; i++)
+{
+    Console.WriteLine($"Índice [{i}] = Conta [{_listaDeContas2[i].Conta}]");
+}
+Console.WriteLine();
+
+var range = _listaDeContas3.GetRange(0, 1);
+for (int i = 0; i < range.Count; i++)
+{
+    Console.WriteLine($"Índice [{i}] = Conta [{range[i].Conta}]");
+}
+Console.WriteLine();
+
+_listaDeContas3.Clear();
+for (int i = 0; i < _listaDeContas3.Count; i++)
+{
+    Console.WriteLine($"Índice [{i}] = Conta [{_listaDeContas3[i].Conta}]");
+}
+
+
 
 Console.ReadKey();
