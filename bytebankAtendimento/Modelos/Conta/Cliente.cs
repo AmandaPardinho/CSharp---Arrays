@@ -12,17 +12,27 @@ namespace bytebankAtendimento.Modelos.Conta
         private string _cpf;
         private string _profissao;
        
-        public string Cpf { 
+        public string Cpf {
             get
             {
                 return _cpf;
+            }
+
+            set 
+            { 
+                _cpf = value; 
             }
         }
         public string Profissao {
             get
             {
                 return _profissao;
-            } 
+            }
+
+            set 
+            { 
+                _profissao = value; 
+            }
         }
         
         public string Nome 
@@ -36,6 +46,10 @@ namespace bytebankAtendimento.Modelos.Conta
                 if(value.Length < 3)
                 {
                     Console.WriteLine("Nome do titular precisa ter pelo menos três caracteres");
+                }
+                else
+                {
+                    _nome = value;
                 }
             } 
         }
