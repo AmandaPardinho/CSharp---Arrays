@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bytebankAtendimento.Modelos.Conta
 {
-    public class ContaCorrente
+    public class ContaCorrente: IComparable<ContaCorrente>
     {
         private int _numeroAgencia;
         private string _conta;
@@ -137,7 +137,19 @@ namespace bytebankAtendimento.Modelos.Conta
 
         public override string ToString()
         {
-            return $"=== DADOS DA CONTA ===\nNúmero da Conta: {this.Conta}\nNúmero Agência:{this.NumeroAgencia}\nSaldo: {this.Saldo}\nTitular: {this.Titular.Nome}\nCPF: {this.Titular.Cpf}\nProfissão: {this.Titular.Profissao}";
-        }    
+            return $"=================================\n===       Dados da Conta      ===\n=================================\nNúmero da Conta: {this.Conta}\nNúmero Agência:{this.NumeroAgencia}\nSaldo: {this.Saldo}\nTitular: {this.Titular.Nome}\nCPF: {this.Titular.Cpf}\nProfissão: {this.Titular.Profissao}\n=================================";
+        }
+
+        public int CompareTo(ContaCorrente? other)
+        {
+            if (other == null)
+            {
+                return 1;
+            }
+            else
+            {
+                return this.NumeroAgencia.CompareTo(other.NumeroAgencia);
+            }
+        }
     }
 }
