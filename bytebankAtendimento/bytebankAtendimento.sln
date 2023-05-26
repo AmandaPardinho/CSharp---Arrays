@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcularMediana", "..\Calcu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaAmostra", "..\MediaAmostra\MediaAmostra.csproj", "{4681F1CC-7E1C-4824-943F-2BC8EFC7B246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nomes", "..\Nomes\Nomes.csproj", "{AA3D97C7-F16D-41F9-AFFE-502878D6BA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nomes", "..\Nomes\Nomes.csproj", "{AA3D97C7-F16D-41F9-AFFE-502878D6BA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teste", "..\teste\teste.csproj", "{3AF37D7C-7C26-4254-9D3B-DC828E651D83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{AA3D97C7-F16D-41F9-AFFE-502878D6BA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA3D97C7-F16D-41F9-AFFE-502878D6BA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA3D97C7-F16D-41F9-AFFE-502878D6BA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF37D7C-7C26-4254-9D3B-DC828E651D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF37D7C-7C26-4254-9D3B-DC828E651D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF37D7C-7C26-4254-9D3B-DC828E651D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF37D7C-7C26-4254-9D3B-DC828E651D83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
