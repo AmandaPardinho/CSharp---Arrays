@@ -99,7 +99,15 @@ namespace bytebankAtendimento.Modelos.Conta
             return true;
         }
 
-        public ContaCorrente(int _numeroAgencia, int numeroAgencia, string conta, double saldo)
+        public ContaCorrente(int _numeroAgencia, string _conta)
+        {
+            NumeroAgencia = _numeroAgencia;
+            Conta = _conta;
+            Titular = new Cliente();
+            TotalContasCriadas++;
+        }
+
+        public ContaCorrente(int _numeroAgencia)
         {
             NumeroAgencia = _numeroAgencia;
             Conta = Guid.NewGuid().ToString().Substring(0, 8);
@@ -125,14 +133,6 @@ namespace bytebankAtendimento.Modelos.Conta
             _numeroAgencia = numeroAgencia;
             _conta = conta;
             _saldo = saldo;
-        }
-
-        public ContaCorrente(int numeroAgencia, string conta)
-        {
-            _numeroAgencia = numeroAgencia;
-            _conta = conta;
-            Titular = new Cliente();
-            TotalContasCriadas++;
         }
 
         public override string ToString()
